@@ -2,30 +2,38 @@
   box-sizing: border-box;
 }
 header{
-  /* Add height and width here */
+  height: 50vh;
+  width: 100vw;
   background-color: lightcyan;
   text-align: center;
 }
 
 .middle-section{
-  /* Add height and width here */
-  background-color: lightpink;
-  /* Add flex properties here */
+  width: 100vw;
+  height:100vh;
+  
+ display: flex;
+ 
+
 }
 
 aside{
-  /* Add height and width here */
+  height: 100vh;
+  width: 50vw;
   background-color: lightseagreen;
 }
 
 .image-section{
-  /* Add height and width here */
+  width: 100vw;
+  height:100vh;
   background-color: aliceblue;
-  /* Add flex properties here */
-  text-align: left;
+  display:flex;
+  flex-direction: column;
+ 
 }
 
 footer{
-  /* Add height and width here */
+  width: 100vw;
+  height:20vh;
   background-color: lime;
 }
